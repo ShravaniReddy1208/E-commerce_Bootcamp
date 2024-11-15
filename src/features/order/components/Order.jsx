@@ -1,10 +1,10 @@
 import { useSelector, useDispatch } from 'react-redux';
 import {
   increment,decrement
-} from './counterSlice';
-import { selectCount } from './counterSlice';
+} from './orderSlice';
+import { selectCount } from './orderSlice';
 
-export default function Counter() {
+export default function Order() {
   const count = useSelector(selectCount);
   const dispatch = useDispatch();
 
